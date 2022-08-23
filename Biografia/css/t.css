@@ -1,4 +1,6 @@
-
+body{
+    background-color: burlywood;
+}
 
 h1,
 h2 {
@@ -12,7 +14,7 @@ p {
 }
 
 a {
-    color: rgb(255, 71, 30);
+    color: rgb(16, 15, 15);
 
 }
 
@@ -21,6 +23,3 @@ a {
     color: brown;
 }
 
-em{
-    color: black;
-}
