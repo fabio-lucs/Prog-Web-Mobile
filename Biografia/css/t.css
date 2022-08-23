@@ -1,12 +1,26 @@
-body{
-    
+
+
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
 }
 
-p{
-    font-family:'Times New Roman', Times, serif;
+p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
 
-a{
-    color: dodgerblue;
+a {
+    color: rgb(255, 71, 30);
+
+}
+
+#links{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+em{
+    color: black;
 }
