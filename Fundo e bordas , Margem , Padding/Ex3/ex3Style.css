@@ -1,0 +1,20 @@
+body{
+    background-color: skyblue;
+}
+
+#conteiner{
+    
+    background-color: rgb(178, 174, 174);
+    width: 50%;
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-weight: 100;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(244, 17, 17);
+}
