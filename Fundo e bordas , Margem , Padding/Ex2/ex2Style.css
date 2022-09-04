@@ -1,0 +1,24 @@
+body{
+    background-color: skyblue;
+}
+
+#div1{
+    background-color: red;
+    width: 700px;
+    padding: 0%;
+    margin: auto;
+    border: 0cm;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#div2{   
+    background-color: green;
+    width: 700px;
+    padding: 25%;
+    margin: auto;
+    border: 0cm;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
