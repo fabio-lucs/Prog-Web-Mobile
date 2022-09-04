@@ -1,0 +1,14 @@
+body {   
+    height: 100vh;
+    background-color: black;
+    background-image: url('./ambient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div{
+    color: black;
+}
+
+
