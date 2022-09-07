@@ -1,24 +1,68 @@
-body{
+body {
+    background-color: lightgreen;
 
 }
 
-#div1{
-    background-image: url();
+header {
+    background-color: skyblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#div2{
-    background-image: url();
+div.square {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+
+
 }
 
-#div3{
-    background-image: url();
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#div4{
-    background-image: url();
+div#img1 {
+    background-image: url('./imgs/bota.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-image-width: 0%;
 }
 
-#div5{
-    background-image: url();
+div#img2 {
+    background-image: url('./imgs/masc.jpg');
+    background-position: center center;
+    background-size: cover;
 }
 
+div#img3 {
+    background-image: url('./imgs/tenisfem.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+div#img4 {
+    background-image: url('./imgs/sapatofem.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#img5 {
+    background-image: url('./imgs/tenisfutebol.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+
+}
