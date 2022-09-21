@@ -10,7 +10,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgba(149, 151, 153, 0.658);
+    background-color: whitesmoke;
 }
 
 p {
@@ -26,23 +26,22 @@ ul {
     margin-bottom: 20px;
 }
 
-#header button {
+.header button {
     position: absolute;
     right: 18%;
     margin-top: -30px;
-
 }
 
-#header i {
+.header i {
     font-size: 22px;
 }
 
-#to-do {
+.to-do {
     margin-top: 40px;
     width: 60%;
 }
 
-#textInsert {
+.textInsert {
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -50,12 +49,12 @@ ul {
     width: 90%;
 }
 
-#div-Insert {
-    padding: 10%;
+.divInsert {
+    padding: 10px;
     background-color: lightgray;
     border-radius: 10px;
     display: flex;
-    box-shadow: 6px 5px 10px 0px gray;
+    box-shadow: 6px 5px 10px 0px grey;
 }
 
 button {
@@ -75,30 +74,28 @@ button {
     color: white;
 }
 
-#to-do-Li {
+.divLi {
     margin-top: 20px;
     padding: 10px;
     background: lightgray;
-    border-radius: 12px;
-    box-shadow: 6px 5px 10px 0px gray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
     display: flex;
     align-items: center;
-
 }
 
-#to-do-Li span {
+.divLi span {
     width: 80%;
     color: dimgray;
-
 }
 
-#to-do-Li input {
+.divLi input {
     width: 10%;
     outline: none;
     accent-color: currentcolor;
 }
 
-#to-do-Li i {
+.divLi i {
     font-size: 22px;
     color: brown;
 }
@@ -111,23 +108,21 @@ li {
     text-decoration: line-through;
 }
 
-@media(max-width:775px) {
+@media (max-width: 775px) {
     input {
         width: 70%;
     }
 
-    #div-Insert button {
+    .divInsert button {
         width: 30%;
     }
 
     i {
         font-size: 30px;
-        padding: 0%;
+        padding: 0px;
     }
 
     p {
         font-size: x-large;
     }
-
-
 }

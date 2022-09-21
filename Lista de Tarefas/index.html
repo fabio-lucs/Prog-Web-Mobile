@@ -5,31 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>To-Do</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js" defer></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div id="to-do">
-        <div id="header">
+    <div class="to-do">
+        <div class="header">
             <p>To-Do List</p>
-            <button>
-                <i class="bx bxs-trash-alt" id="insert-button"></i></button>
+            <button><i class='bx bxs-trash-alt'></i></button>
         </div>
-        <hr>
-        <br>
-        <div id="div-Insert">
-            <input type="text" id="textInsert">
-            <button> <i class="bx bx-plus" id = "delete-button"></i></button>
+        <hr />
+        <br />
+        <div class="divInsert">
+            <input class="textInsert" type="text" />
+            <button><i class='bx bx-plus'></i></button>
         </div>
-        <ul id="to-do-Li">
-
-        </ul>
+        <ul></ul>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
