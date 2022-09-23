@@ -18,6 +18,7 @@ const handleClickBtPesquisar = async () => {
         return;
     }
     const response = await fetch(`https://swapi.dev/api/people/${id}`);
+    const responseLand = await fetch(`https://swapi.dev/api/people/homeworld/name${id}`);
     const data = await response.json();
     console.log(data);
     h3Nome.innerHTML += "Nome = " + data.name + "<br>";
