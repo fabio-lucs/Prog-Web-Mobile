@@ -18,31 +18,33 @@
             </div>
 
             <div>
-                <a href="#" class="nav">Fabio</a>
+                <a href="#" class="nav__logo">Fabio Lucas</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <div class="nav__close" id="nav-close">
                     <i class='bx bx-x'></i>
                 </div>
+
                 <ul class="nav__list">
-                    <li class="nav__item"> <a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"> <a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"> <a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"> <a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"> <a href="#works" class="nav__link">Works</a></li>
                     <li class="nav__item"> <a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
-
             </div>
         </nav>
     </header>
+
+    <!-- Home -->
     <main class="l-main">
         <section class="home" id="home">
-            <div class="home__conteiner bd-grid">
+            <div class="home__container bd-grid">
                 <div class="home__data">
                     <div class="home__img">
-                        <img src="" alt="Profile Picture">
+                        <img src="./assets/img/firstphoto.jfif" alt="Profile Picture">
                     </div>
                     <h1 class="home__title">Fabio Lucas</h1>
                     <span class="home__profession">Computer Science Student</span>
@@ -53,21 +55,22 @@
                         <a href="#" class="home__social-link"><i class='bx bxl-dribbble'></i></a>
                         <a href="#" class="home__social-link"><i class='bx bxl-behance'></i></a>
                     </div>
-                    <a download="" href="#" class="button home__button">Download Resume</a>
+                    <a download="" href="./assets/pdf/Curriculo.pdf" class="button home__button">Download Resume</a>
                 </div>
             </div>
         </section>
 
+        <!-- About -->
         <section class="about section" id="about">
             <span class="section-subtitle">My intro</span>
             <h2 class="section-title">About me</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__data">
-                    <p class="about__description">Hi , I'm a computer science student</p>
+                    <p class="about__description">Hi , I'm a computer science student. I like programming and create
+                        news things.</p>
                     <img src="./assets/img/about_img.jpg" alt="about_image" class="about__img">
                 </div>
-
 
                 <div>
                     <div class="about__information">
@@ -87,7 +90,6 @@
                             <i class='bx bx-envelope about__information-icon'></i>
                             <span>fabiolucs19@gmail.com</span>
                         </div>
-
                     </div>
 
                     <div class="about__information">
@@ -98,7 +100,6 @@
                             <div>
                                 <span class="about__information-subtitle">3 years studying</span>
                                 <span class="about__information-subtitle-small">Experience</span>
-
                             </div>
                         </div>
 
@@ -107,7 +108,6 @@
                             <div>
                                 <span class="about__information-subtitle">+10 projects on Github</span>
                                 <span class="about__information-subtitle-small">Completed</span>
-
                             </div>
                         </div>
 
@@ -116,7 +116,6 @@
                             <div>
                                 <span class="about__information-subtitle">Support</span>
                                 <span class="about__information-subtitle-small">Online 24/7</span>
-
                             </div>
                         </div>
                     </div>
@@ -124,6 +123,7 @@
             </div>
         </section>
 
+        <!-- Skills -->
         <section class="skills-section" id="skills">
             <span class="section-subtitle">Why Choose Me</span>
             <h2 class="section-title">My expertise Area</h2>
@@ -188,109 +188,240 @@
 
         </section>
 
-        <section class="education section" id="">
+        <!-- Education -->
+        <section class="education section">
             <span class="section-subtitle">Qualification</span>
-            <h2 class="section-title">My education</h2>
+            <h2 class="section-title">My education</h2>    
 
-            <div class="education__container bd-grid">
-                <div class="education__content">
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2015 - 2017</h3>
+                            <span class="education__university">English Course - English Life</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Certificate</h3>
+                            <span class="education__specialty">Advanced Proficiency in English</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2016 - 2017</h3>
+                            <span class="education__university">Tech courses - Recife Unit</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Certificate</h3>
+                            <span class="education__specialty">Electronics Technician</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2020-2024</h3>
+                            <span class="education__university">Universidade Católica de Pernambuco</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Diploma Development</h3>
+                            <span class="education__specialty">Future Computer Scientist</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="services section" id="services">
+
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">My services</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                        <i class='bx bx-code services__icon'></i>
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-pen services__icon'></i>
+                        <h3 class="services__title">Graphic Design</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-brush services__icon'></i>
+                        <h3 class="services__title">UI/UX</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-server services__icon'></i>
+                        <h3 class="services__title">Back-End Development</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-pencil services__icon'></i>
+                        <h3 class="services__title">Content Writing</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-mobile services__icon'></i>
+                        <h3 class="services__title">Interface Mobile</h3>
+                        <p class="services__description">This service that I offer is....</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project section">
+                <div class="project__container bd-grid">
+                    <div class="project__data">
+                        <h2 class="section-title project__title">Do you have a project in mind?</h2>
+                        <p class="project__description">If you have a project that you want to carry out , don't
+                            hesitate
+                            and tell me what its is , and whatservices I can Ooffer you , contact me directly here.</p>
+                        <a href="#contact" class="button button__light">Contact Me</a>
+                    </div>
+
+                    <!-- <img src="./assets/img/projectlogo.jpg" alt="Project logo" class="project__img"> -->
+                </div>
+            </section>
+
+            <section class="works section" id="works">
+                <span class="section-subtitle">My portfolio</span>
+                <h2 class="section-title">Recent Works</h2>
+
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="./assets/img/work1.jpg" alt="1° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 1</span>
+                        </div>
+                    </div>
+
+                    <div class="works__img">
+                        <img src="./assets/img/work2.jpg" alt="2° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 2</span>
+                        </div>
+                    </div>
+
+                    <div class="works__img">
+                        <img src="./assets/img/work3.jpg" alt="3° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 3</span>
+                        </div>
+                    </div>
+
+                    <div class="works__img">
+                        <img src="./assets/img/work4.jpg" alt="4° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 4</span>
+                        </div>
+                    </div>
+
+                    <div class="works__img">
+                        <img src="./assets/img/work5.jpg" alt="5° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 5</span>
+                        </div>
+                    </div>
+
+                    <div class="works__img">
+                        <img src="./assets/img/work6.jpg" alt="6° Work">
+
+                        <div class="works__data">
+                            <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                            <span class="works__title">Work 6</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <input type="text" placeholder="Project" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message"
+                            class="contact__input"></textarea>
+                        <input type="submit" value="Send Message" class="button contact__button">
+                    </form>
+
                     <div>
-                        <h3 class="education__year">2015 - 2017</h3>
-                        <span class="education__university">English Course - English Life</span>
-                    </div>
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Call Me</h3>
+                            <span class="contact__text">(81) 98582-1623</span>
+                            <span class="contact__text">(81) 98313-4609</span>
+                        </div>
 
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Email</h3>
+                            <span class="contact__text">fabiolucs19@gmail.com</span>
+                            <span class="contact__text">fabio.2020202317@unicap.br</span>
+                        </div>
 
-                    <div>
-                        <h3 class="education__race">Certificate</h3>
-                        <span class="education__specialty">Advanced Proficiency in English</span>
-                    </div>
-                </div>
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Location</h3>
+                            <span class="contact__text">Paulista - PE</span>
+                            <span class="contact__text">Unicap - PE</span>
+                        </div>
 
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2016 - 2017</h3>
-                        <span class="education__university">Tech courses - Recife Unit</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-
-                    <div>
-                        <h3 class="education__race">Certificate</h3>
-                        <span class="education__specialty">Electronics Technician</span>
                     </div>
                 </div>
-
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2020-2024</h3>
-                        <span class="education__university">Universidade Católica de Pernambuco</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
- 
-                    <div>
-                        <h3 class="education__race">Diploma Development</h3>
-                        <span class="education__specialty">Future Computer Scientist</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="services section" id="services">
-            
-            <span class="section-subtitle">What I Offer</span>
-            <h2 class="section-title">My services</h2>
-
-            <div class="services__container bd-grid">
-                <div class="services__content">
-                    <i class='bx bx-code services__icon' ></i>
-                    <h3 class="services__title">Web Design</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-
-                <div class="services__content">
-                    <i class='bx bx-pen services__icon' ></i>
-                    <h3 class="services__title">Graphic Design</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-
-                <div class="services__content">
-                    <i class='bx bx-brush services__icon' ></i>
-                    <h3 class="services__title">UI/UX</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-
-                <div class="services__content">
-                    <i class='bx bx-server services__icon' ></i>
-                    <h3 class="services__title">Back-End Development</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-
-                <div class="services__content">
-                    <i class='bx bx-pencil services__icon' ></i>
-                    <h3 class="services__title">Content Writing</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-
-                <div class="services__content">
-                    <i class='bx bx-mobile services__icon' ></i>
-                    <h3 class="services__title">Interface Mobile</h3>
-                    <p class="services__description">This service that I offer is....</p>
-                </div>
-            </div>
-        </section>
-
+            </section>
     </main>
+
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Fabio</h1>
+            <p class="footer__description">I'm Fabio and this is my personal website , consult me here.</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by Fabio Lucas - 2022</p>
+        </div>
+    </footer>
     <script src="./assets/js/index.js"></script>
 </body>
 

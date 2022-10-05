@@ -25,7 +25,7 @@ function linkAction(){
 }
 navLink.forEach(n=> n.addEventListener('click',linkAction))
 
-
+// Sessão Scrolls
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
