@@ -24,6 +24,10 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
   }
+
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
   
   /* images and videos max out at full width */
   img,
