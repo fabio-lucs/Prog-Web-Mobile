@@ -17,6 +17,12 @@ html {
     margin: 1rem;
     font-family: sans-serif;
     line-height: 1.5;
+    background-color: aqua;
+  }
+
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
   }
   
   /* images and videos max out at full width */

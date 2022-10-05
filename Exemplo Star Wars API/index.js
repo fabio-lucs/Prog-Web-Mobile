@@ -29,7 +29,7 @@ const handleClickBtPesquisar = async () => {
   h3Nome.innerHTML += "Altura : " + data.height + " cm " + "<br>";
   h3Nome.innerHTML += "Peso : " + data.mass + " kg " + "<br>";
   h3Nome.innerHTML += "Planeta Natal : " + homeworld.name + "<br>";
-  h3Nome.innerHTML += "Lista de filmes : " + filmsListString + "<hr><br>";
+  h3Nome.innerHTML += "Lista de filmes : " + filmsListString + "<br><br>";
 };
 
 async function getJson(addressRequest) {
