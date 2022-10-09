@@ -1,17 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./index.js" defer></script>
-    <title>Bulls and Cows Game</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bulls and Cows</title>
 </head>
 
 <body>
-    <div></div>
+    <h1>Bulls and Cows Game</h1>
+    <h4>Enter a number between 0 and 9.</h4>
+    <form class="input-form">
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+    </form>
+    <span class="errorText"></span>
+    <span class="gameResult"></span>
+    <div class="btn">
+        <button data-value="result">Result</button>
+        <button data-value="reset">Reset</button>
+    </div>
+    <table border="1" width="250px" height="200">
+        <th colspan="3">Score</th>
+        <tr align="center">
+            <td>1° Attempt</td>
+            <td class="first" width="80px"></td>
+            <td class="second" width="100px"></td>
+        </tr>
+        <tr align="center">
+            <td>2° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>3° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>4° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>5° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>6° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>7° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>8° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+        <tr align="center">
+            <td>9° Attempt</td>
+            <td class="first"></td>
+            <td class="second"></td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
 </body>
 
 </html>
